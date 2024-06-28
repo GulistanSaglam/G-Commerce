@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.container p{
+    text-transform: uppercase;
+}
+
+.info{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.info img{
+    height: 250px;
+    width: 150px;
+}
+.info p{
+    font-size: 0.7rem;
+}
+
+.price{
+    padding: 2rem;
+    font-size: 0.8rem;
+}
+.delete{
+    margin-right: 2rem;
+}
+
+.delete button{
+    background-color: white;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    font-size: 0.8rem;
+}
+
+.delete button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}

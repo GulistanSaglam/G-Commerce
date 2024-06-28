@@ -1,0 +1,53 @@
+
+h3{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.reset{
+    margin-left: 2rem;
+}
+.reset button{
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor:pointer;
+    font-size: 0.9rem;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.subtotal p{
+    font-size: 0.9rem;
+}
+
+.checkout{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem;
+ 
+}
+
+.checkout .checkBtn{
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.checkout .checkBtn:hover{
+    border: 1px solid blackgray;
+    background-color: black;
+    color: white;
+}
+
+.emptyCart{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.container{
+    /* height: 10vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+    z-index: 5;
+    background-color: transparent;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.left .name{
+    text-decoration: none;
+    color: black;
+}
+.left .women{
+    text-decoration: none;
+    color: black;
+}
+.category{
+    display: flex;
+    gap: 1rem;
+    margin-top: -2rem;
+}
+.category p,
+.right p {
+    font-size: 0.8rem;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.signup{
+    text-decoration: none;
+    color: black;
+}

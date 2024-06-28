@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    text-decoration: none;
+}
+
+.imageContainer img{
+    height: 350px;
+    width: 250px;
+}
+.imageContainer{
+    position: relative;
+}
+.imageContainer span{
+    position: absolute;
+    color: gray;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.25rem;
+    border: 1px solid white;
+    font-size: 0.8rem;
+    top: 19rem;
+    left: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info p{
+    font-size: 0.6rem;
+    color: black;
+    text-decoration: none;
+}
